@@ -1,23 +1,23 @@
 .main {
-	min-height: 650px;
+	min-height: 40.625rem;
 	background: url('../img/main/bg.jpg') center center / cover no-repeat;
-	padding-top: 21px;
+	padding-top: 1.3125rem;
 	color: #fff;
 	&__header {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
 		&-official {
 			text-align: center;
 			p {
 				font-weight: 300;
-				font-size: 14px;
-				line-height: 12px;
+				line-height: 0.75rem;
 			}
 			span {
 				font-weight: 400;
-				font-size: 18px;
-				line-height: 34px;
+				font-size: 1.125rem;
+				line-height: 2.125rem;
 			}
 		}
 		&-call {
@@ -26,8 +26,8 @@
 			align-items: flex-end;
 			a {
 				font-weight: 700;
-				font-size: 18px;
-				line-height: 18px;
+				font-size: 1.125rem;
+				line-height: 1.125rem;
 				color: #fff;
 				text-decoration: none;
 				text-align: right;
@@ -36,64 +36,63 @@
 				}
 			}
 			button {
-				margin-top: 5px;
+				margin-top: 0.3125rem;
 			}
 		
 	}
 	
 	}
 	&__title {
-		margin-top: 91px;
+		margin-top: 5.6875rem;
 		font-weight: 700;
-		font-size: 47px;
+		font-size: 2.9375rem;
 		text-align: end;
 		text-transform: uppercase;
 	}
 	&__subtitle {
-		margin-top: 17px;
+		margin-top: 1.0625rem;
 		font-weight: 400;
-		font-size: 22px;
+		font-size: 1.375rem;
 		text-align: end;
 		text-transform: uppercase;
 	}
 	&__wrapper {
-		margin-top: 61px;
+		margin-top: 3.8125rem;
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
 	}
 	&__item {
-		margin: 0 30px;
+		margin: 0 1.875rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
-		width: 110px;
+		width: 6.875rem;
 		text-align: center;
 		&-img {
-			height:46px;
-			width: 45px;
+			height:2.875rem;
+			width: 2.8125rem;
 		}
 		&-text {
-			margin-top: 25px;
-			font-size: 14px;
+			margin-top: 1.5625rem;
+			font-size: 0.875rem;
 		}
 	}
 	&__consultation {
-		margin-top: 65px;
+		margin-top: 4.0625rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-end;
 		&-button {
-			width: 300px;
-			height: 50px;
-			font-size: 16px;
+			width: 18.75rem;
+			height: 3.125rem;
 		}
 		&-link {
-			margin-top: 10px;
+			margin-top: 0.625rem;
 			font-weight: 500;
-			font-size: 16px;
+			font-size: 1rem;
 			color: #fff;
 			text-transform: uppercase;
 			transition: 0.3s all;
