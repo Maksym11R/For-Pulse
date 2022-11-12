@@ -1,0 +1,33 @@
+.slider {
+	min-height: 40rem;
+	padding-top: 6.625rem;
+	&__main {
+		position: relative;
+		width: 46.875rem;
+		margin: 0 auto;
+	}
+	.slick-track {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.slick-arrow {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 10;
+		font-size: 0;
+		width: 1.875rem;
+		height: 3.125rem;
+		border: none;
+	}
+	.slick-prev {
+		left: -3.125rem;
+		background: url('../img/slider/chevron-left-solid.svg') 0 0 / 100% no-repeat;
+	}
+	.slick-next {
+		right: -3.125rem;
+		background: url('../img/slider/chevron-right-solid.svg') 0 0 / 100% no-repeat;
+	}
+}
+

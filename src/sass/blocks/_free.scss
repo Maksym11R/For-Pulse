@@ -1,0 +1,42 @@
+.free {
+	min-height: 36.5rem;
+	background: url('../img/free/bg2.jpg') center center / cover no-repeat;
+	padding-top: 6.375rem;
+	&__title {
+		font-weight: 700;
+		font-size: 2.25rem;
+		line-height: 3.375rem;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	&__subtitle {
+		margin-top: 0.5rem;
+		font-weight: 300;
+		font-size: 1.25rem;
+		line-height: 1.875rem;
+		color: #fff;
+	}
+	&__form {
+		margin-top: 2.25rem;
+		display: flex;
+		flex-direction: column;
+		width: 18.9375rem;
+		
+	}
+	&__input {
+		height: 3.375rem;
+		margin-bottom: 0.95rem;
+		border: none;
+		border-radius: 0.375rem;;
+		padding: 0 1.3125rem;
+		outline: none;
+		&:last-child {
+			margin-bottom: 1.1rem;
+		}
+	}
+	&__button {
+		width: 18.9375rem;
+		height: 3.375rem;
+		font-weight: 500;
+	}
+}

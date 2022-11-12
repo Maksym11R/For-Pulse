@@ -192,3 +192,78 @@
   font-size: 0.875rem;
   padding: 0 1.9375rem;
 }
+
+.free {
+  min-height: 36.5rem;
+  background: url("../img/free/bg2.jpg") center center/cover no-repeat;
+  padding-top: 6.375rem;
+}
+.free__title {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 3.375rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.free__subtitle {
+  margin-top: 0.5rem;
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #fff;
+}
+.free__form {
+  margin-top: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  width: 18.9375rem;
+}
+.free__input {
+  height: 3.375rem;
+  margin-bottom: 0.95rem;
+  border: none;
+  border-radius: 0.375rem;
+  padding: 0 1.3125rem;
+  outline: none;
+}
+.free__input:last-child {
+  margin-bottom: 1.1rem;
+}
+.free__button {
+  width: 18.9375rem;
+  height: 3.375rem;
+  font-weight: 500;
+}
+
+.slider {
+  min-height: 40rem;
+  padding-top: 6.625rem;
+}
+.slider__main {
+  position: relative;
+  width: 46.875rem;
+  margin: 0 auto;
+}
+.slider .slick-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 0;
+  width: 1.875rem;
+  height: 3.125rem;
+  border: none;
+}
+.slider .slick-prev {
+  left: -3.125rem;
+  background: url("../img/slider/chevron-left-solid.svg") 0 0/100% no-repeat;
+}
+.slider .slick-next {
+  right: -3.125rem;
+  background: url("../img/slider/chevron-right-solid.svg") 0 0/100% no-repeat;
+}
