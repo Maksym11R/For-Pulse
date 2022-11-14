@@ -1,0 +1,108 @@
+.catalog {
+	padding-top: 6.25rem;
+	padding-bottom: 6.25rem;
+	&__title {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.875rem;
+	}
+	&__tabs {
+		margin-top: 4.375rem;
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 0;
+		padding-left: 0;
+	}
+	&__tab {
+		width: 13.875rem;
+		height: 3.25rem;
+		margin: 0 0.3125rem;
+		border: 2px solid #D0D0D0;
+		font-weight: 400;
+		font-size: 1.125rem;
+		text-transform: uppercase;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: #6B6B6B;
+		transform: skewX(-25deg);
+		cursor: pointer;
+		transition: 0.3s;
+		&:hover {
+			box-shadow: 3px 3px 20px $main-color;
+		}
+		div {
+			transform: skewx(25deg);
+		}
+		&_active {
+			color: #fff;
+			background-color: $main-color;
+			border: none;
+		}
+	}
+	&__item {
+		margin-top: 3.4375rem;
+		width: 16.9375rem;
+		padding: 1.25rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid #E8E8E8;
+		&-title {
+			font-weight: 700;
+			margin-top: 1.2rem;
+		}
+		&-descr {
+			width: 15.625rem;
+			font-weight: 300;
+			font-size: 0.875rem;
+			margin-top: 1rem;
+			text-align: center;
+			line-height: 1.3rem;
+		}
+		&-link {
+			margin-top: 0.5rem;
+			font-weight: 300;
+			font-size: 0.875rem;
+			color: $main-color;
+			text-transform: uppercase;
+		}
+		hr {
+			width: 14.5rem;
+			margin-top: 1.5rem;
+		}
+		&-wrapper {
+			margin-top: 1.5rem;
+			width: 14.5rem;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		&-prices {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: flex-start;
+		}
+		&-oldprice {
+			color: #555555;
+			font-size: 0.75rem;
+			line-height: 1.25rem;
+		}
+		&-price {
+			font-weight: 700;
+			font-size: 1.25rem;
+			line-height: 1.25rem;
+		}
+		&-button {
+			width: 8.4375rem;
+			height: 2.75rem;
+		}
+
+	}
+}
