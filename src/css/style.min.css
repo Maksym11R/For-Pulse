@@ -258,6 +258,7 @@
   width: 1.875rem;
   height: 3.125rem;
   border: none;
+  cursor: pointer;
 }
 .slider .slick-prev {
   left: -3.125rem;
@@ -279,6 +280,7 @@
   font-size: 1.875rem;
 }
 .catalog__tabs {
+  padding-bottom: 2.4375rem;
   margin-top: 4.375rem;
   list-style: none;
   display: flex;
@@ -315,14 +317,20 @@
   background-color: #C70101;
   border: none;
 }
+.catalog__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .catalog__item {
-  margin-top: 3.4375rem;
+  overflow: hidden;
+  margin: 1rem 0.5rem 0;
   width: 16.9375rem;
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   border: 2px solid #E8E8E8;
 }
 .catalog__item-title {
@@ -345,12 +353,12 @@
   text-transform: uppercase;
 }
 .catalog__item hr {
-  width: 14.5rem;
+  width: 16.5rem;
   margin-top: 1.5rem;
 }
 .catalog__item-wrapper {
   margin-top: 1.5rem;
-  width: 14.5rem;
+  width: 16.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -374,4 +382,59 @@
 .catalog__item-button {
   width: 8.4375rem;
   height: 2.75rem;
+}
+.catalog__item-shell {
+  display: flex;
+  width: calc(200% + 4rem);
+  height: 100%;
+}
+.catalog__item-contentt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-right: 2rem;
+  text-align: center;
+  transform: translateX(-100%);
+}
+.catalog__item-contentt_active {
+  transform: translateX(0%);
+}
+.catalog__item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+  width: 50%;
+}
+.catalog__item-list li {
+  position: relative;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  color: #555555;
+  margin-top: 1rem;
+  width: 100%;
+  list-style: none;
+}
+.catalog__item-list li::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  bottom: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: #C70101;
+}
+.catalog__item-list_active {
+  transform: translateX(-120%);
+}
+.catalog__item-link2 {
+  margin-top: 2.5rem;
+  margin-left: 50%;
+  transform: translateX(-85%);
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #C70101;
+  text-transform: uppercase;
 }
