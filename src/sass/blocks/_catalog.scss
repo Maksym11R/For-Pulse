@@ -46,10 +46,13 @@
 		}
 	}
 	&__content {
-		display: flex;
+		display: none;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
+		&_active {
+			display: flex;
+		}
 	}
 	
 	&__item {
