@@ -1,0 +1,43 @@
+.reviews {
+	&__title {
+		font-weight: 700;
+		font-size: 1.875rem;
+		text-align: center;
+	}
+	&__wrapper {
+		margin: 0 auto;
+		width: 57.1875rem;
+		display: flex;
+		flex-direction: column;
+	}
+	&__item {
+		margin-top: 3.75rem;
+		height: 12.5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&-text {
+			height: 100%;
+			margin-left: 3.7rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+		&-title {
+			font-weight: 700;
+			font-size: 1.125rem;
+			line-height: 1.125rem;
+		}
+		&-descr {
+			margin-top: 1.4rem;
+			font-weight: 300;
+			font-size: 1rem;
+			line-height: 1.5rem;
+			span {
+				line-height: 4rem;
+			}
+		}
+	}
+	
+}

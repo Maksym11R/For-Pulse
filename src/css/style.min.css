@@ -272,6 +272,7 @@
 .catalog {
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
+  min-height: 73rem;
 }
 .catalog__title {
   text-align: center;
@@ -440,4 +441,45 @@
   font-size: 0.875rem;
   color: #C70101;
   text-transform: uppercase;
+}
+
+.reviews__title {
+  font-weight: 700;
+  font-size: 1.875rem;
+  text-align: center;
+}
+.reviews__wrapper {
+  margin: 0 auto;
+  width: 57.1875rem;
+  display: flex;
+  flex-direction: column;
+}
+.reviews__item {
+  margin-top: 3.75rem;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews__item-text {
+  height: 100%;
+  margin-left: 3.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.reviews__item-title {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+}
+.reviews__item-descr {
+  margin-top: 1.4rem;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.reviews__item-descr span {
+  line-height: 4rem;
 }
