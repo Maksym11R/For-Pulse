@@ -443,6 +443,9 @@
   text-transform: uppercase;
 }
 
+.reviews {
+  margin-bottom: 3rem;
+}
 .reviews__title {
   font-weight: 700;
   font-size: 1.875rem;
@@ -482,4 +485,40 @@
 }
 .reviews__item-descr span {
   line-height: 4rem;
+}
+
+.map {
+  position: relative;
+}
+.map__block {
+  position: absolute;
+  width: 28.75rem;
+  height: 16.875rem;
+  background-color: #C70101;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}
+.map__addres {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-top: 3.125rem;
+  margin-bottom: 2.25rem;
+}
+.map__link {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.map__social {
+  margin-top: 2.25rem;
+}
+.map__social a {
+  cursor: pointer;
+}
+.map__social a img {
+  margin: 0 0.6rem;
+  cursor: pointer;
 }

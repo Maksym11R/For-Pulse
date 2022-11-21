@@ -1,0 +1,36 @@
+.map {
+	position: relative;
+	&__block {
+		position: absolute;
+		width: 28.75rem;
+		height: 16.875rem;
+		background-color: $main-color;
+		text-align: center;
+		left: 50%;
+		transform: translateX(-50%);
+		color: #fff;
+	}
+	&__addres {
+		font-weight: 500;
+		font-size: 1.25rem;
+		margin-top: 3.125rem;
+		margin-bottom: 2.25rem;
+	}
+	&__link {
+		font-weight: 700;
+		font-size: 1.25rem;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	&__social {
+		margin-top: 2.25rem;
+		a {
+			cursor: pointer;
+			img {
+				margin: 0 0.6rem;
+				cursor: pointer;
+			}
+		}
+		
+	}
+}
